@@ -22,6 +22,11 @@ namespace curso{
             float MaiorValor = float.MaxValue;
             float MenorValor = float.MinValue;
 
+            //string
+            string nome = "pedro";
+            //obj
+            object pessoa = "d";//recebe varios valores
+
 
             Console.WriteLine(x);
             Console.WriteLine(n1);
@@ -34,6 +39,8 @@ namespace curso{
             Console.WriteLine(letra);
             Console.WriteLine(MaiorValor);
             Console.WriteLine(MenorValor);
+            Console.WriteLine(pessoa);
+            Console.WriteLine(nome);
         }
     }
 }
